@@ -19,7 +19,7 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation libs.guava
-    implementation 'com.h2database:h2:1.4.200' 
+    implementation 'com.h2database:h2:2.2.220' 
 
     // Vulnerable dependencies
     implementation 'io.netty:netty-common:4.1.117.Final' // https://github.com/advisories/GHSA-389x-839f-4rhx
