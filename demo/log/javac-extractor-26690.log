@@ -1,0 +1,34 @@
+[2025-02-14 15:10:05] [javac-extractor-26690] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 23 --javac-args @@@/Users/thida/ftp/gradle-project-demo/demo/log/ext/javac-1.args
+                                              user.dir=/Users/thida/ftp/gradle-project-demo
+[2025-02-14 15:10:05] [javac-extractor-26690] Compilation name /Users/thida/ftp/gradle-project-demo/demo/trap/java/diagnostics/diagnostic-1.trap.gz
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Appending source destination directory /Users/thida/ftp/gradle-project-demo/app/build/generated/sources/annotationProcessor/java/test to sourcepath
+[2025-02-14 15:10:05] [javac-extractor-26690] Processing file /Users/thida/ftp/gradle-project-demo/app/src/test/java/org/example/AppTest.java
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/Object.members/Object.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/org/example/App.members/App.members#67.0-1739520601908-java.trap.gz as /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/org/example/App.members/App.members#0.0-1739520079702-java.trap.gz exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/String.members/String.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/annotation/Annotation.members/Annotation.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/annotation/Retention.members/Retention.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/annotation/RetentionPolicy.members/RetentionPolicy.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/annotation/Target.members/Target.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/annotation/ElementType.members/ElementType.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/Cloneable.members/Cloneable.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/io/Serializable.members/Serializable.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/Class.members/Class.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/reflect/GenericDeclaration.members/GenericDeclaration.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/reflect/Type.members/Type.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/reflect/AnnotatedElement.members/AnnotatedElement.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/invoke/TypeDescriptor$OfField.members/TypeDescriptor$OfField.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/invoke/TypeDescriptor.members/TypeDescriptor.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/constant/Constable.members/Constable.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/Throwable.members/Throwable.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/Deprecated.members/Deprecated.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/Iterable.members/Iterable.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] [WARN] Not rewriting trap file for /Users/thida/ftp/gradle-project-demo/demo/trap/java/classes/java/lang/Error.members/Error.members#67.0-1732874542000-java.trap.gz as it exists
+[2025-02-14 15:10:05] [javac-extractor-26690] Processing JAR file: /Users/thida/.gradle/caches/modules-2/files-2.1/junit/junit/4.13.2/8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12/junit-4.13.2.jar
+[2025-02-14 15:10:05] [javac-extractor-26690] Processing JAR file: /Users/thida/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar
+[2025-02-14 15:10:05] [javac-extractor-26690] Javac init time: 0.6s
+[2025-02-14 15:10:05] [javac-extractor-26690] Javac attr time: 0.0s
+[2025-02-14 15:10:05] [javac-extractor-26690] Extractor time: 0.1s
+[2025-02-14 15:10:05] [javac-extractor-26690] Other time: 0.1s
+[2025-02-14 15:10:05] [javac-extractor-26690] Total time: 0.8s

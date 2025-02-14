@@ -1,0 +1,390 @@
+[T 08:09:49 25944] CodeQL CLI version 2.20.4
+[T 08:09:49 25944] Initializing tracer.
+[T 08:09:49 25944] Initializing tags.
+[T 08:09:49 25944] ID set to 0000000000006558_0000000000000001 (parent root)
+[T 08:09:49 25944] Initializing tracer.
+[T 08:09:49 25944] Initializing tags.
+[T 08:09:49 25944] ID set to 0000000000006558_0000000000000002 (parent root)
+[T 08:09:49 25944] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 08:09:49 25944] ==== Candidate to intercept: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/runner-osx (canonical: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/runner-osx) ====
+[T 08:09:49 25944] Lua: === Intercepted call to /opt/homebrew/caskroom/codeql/2.20.4/codeql/tools/osx64/runner-osx ===
+[T 08:09:49 25944] Executing the following tracer actions:
+[T 08:09:49 25944] Tracer actions:
+[T 08:09:49 25944] pre_invocations(0)
+[T 08:09:49 25944] post_invocations(0)
+[T 08:09:49 25944] trace_languages(1): [java]
+[T 08:09:49 25945] Attempting to switch stdout/stderr to 3...
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/bin/bash.semmle.00006558.30748E68.slice.x86_64: replacing existing signature
+[T 08:09:51 25944] Initializing tracer.
+[T 08:09:51 25944] Initializing tags.
+[T 08:09:51 25944] ID set to 0000000000006558_0000000000000003 (parent 0000000000006558_0000000000000002)
+[T 08:09:51 25944] ==== Candidate to intercept: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/autobuild.sh (canonical: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/autobuild.sh) ====
+[T 08:09:51 25944] Lua: === Intercepted call to /opt/homebrew/caskroom/codeql/2.20.4/codeql/java/tools/autobuild.sh ===
+[T 08:09:51 25944] Executing the following tracer actions:
+[T 08:09:51 25944] Tracer actions:
+[T 08:09:51 25944] pre_invocations(0)
+[T 08:09:51 25944] post_invocations(0)
+[T 08:09:51 25944] trace_languages(1): [java]
+[T 08:09:51 25966] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/bin/java.semmle.0000656D.05962D00.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/bin/java.semmle.0000656D.05962D00.slice.arm64
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/bin/java.semmle.0000656D.05962D00.slice.arm64: replacing existing signature
+[T 08:09:51 25965] Initializing tracer.
+[T 08:09:51 25965] Initializing tags.
+[T 08:09:51 25965] ID set to 000000000000656D_0000000000000001 (parent 0000000000006558_0000000000000003)
+[T 08:09:51 25965] ==== Candidate to intercept: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/bin/java (canonical: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/bin/java) ====
+[T 08:09:51 25965] Lua: === Intercepted call to /opt/homebrew/caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/bin/java ===
+[T 08:09:51 25965] Executing the following tracer actions:
+[T 08:09:51 25965] Tracer actions:
+[T 08:09:51 25965] pre_invocations(0)
+[T 08:09:51 25965] post_invocations(0)
+[T 08:09:51 25965] trace_languages(1): [java]
+[T 08:09:51 25965] Passing through -javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 08:09:51 25965] Passing through -Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 08:09:51 25965] Intercepted JVM creation with extra hidden args: ['-javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 08:09:51 25998] Attempting to switch stdout/stderr to 20...
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/lib/jspawnhelper.semmle.0000656D.355945B8.slice.arm64: replacing existing signature
+[T 08:09:52 26001] Initializing tracer.
+[T 08:09:52 26001] Initializing tags.
+[T 08:09:52 26001] ID set to 0000000000006591_0000000000000001 (parent 000000000000656D_0000000000000001)
+[T 08:09:52 26001] ==== Candidate to intercept: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/lib/jspawnhelper (canonical: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/lib/jspawnhelper) ====
+[T 08:09:52 26001] Lua: === Intercepted call to /opt/homebrew/caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/lib/jspawnhelper ===
+[T 08:09:52 26001] Executing the following tracer actions:
+[T 08:09:52 26001] Tracer actions:
+[T 08:09:52 26001] pre_invocations(0)
+[T 08:09:52 26001] post_invocations(0)
+[T 08:09:52 26001] trace_languages(1): [java]
+[T 08:09:52 26004] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/opt/homebrew/opt/openjdk@17/bin/java.semmle.00006591.10FBFDF0.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/opt/homebrew/opt/openjdk@17/bin/java.semmle.00006591.10FBFDF0.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/opt/homebrew/opt/openjdk@17/bin/java.semmle.00006591.10FBFDF0.slice.arm64
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/opt/homebrew/opt/openjdk@17/bin/java.semmle.00006591.10FBFDF0.slice.arm64: replacing existing signature
+[T 08:09:52 26001] Initializing tracer.
+[T 08:09:52 26001] Initializing tags.
+[T 08:09:52 26001] ID set to 0000000000006591_0000000000000002 (parent 0000000000006591_0000000000000001)
+[T 08:09:52 26001] ==== Candidate to intercept: /opt/homebrew/opt/openjdk@17/bin/java (canonical: /opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home/bin/java) ====
+[T 08:09:52 26001] Lua: === Intercepted call to /opt/homebrew/cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/contents/home/bin/java ===
+[T 08:09:52 26001] Executing the following tracer actions:
+[T 08:09:52 26001] Tracer actions:
+[T 08:09:52 26001] pre_invocations(0)
+[T 08:09:52 26001] post_invocations(0)
+[T 08:09:52 26001] trace_languages(1): [java]
+[T 08:09:52 26001] Passing through -javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 08:09:52 26001] Passing through -Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 08:09:52 26001] Intercepted JVM creation with extra hidden args: ['-javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 08:09:52 26032] Initializing tracer.
+[T 08:09:52 26032] Initializing tags.
+[T 08:09:52 26032] ID set to 00000000000065B0_0000000000000001 (parent 000000000000656D_0000000000000001)
+[T 08:09:52 26032] ==== Candidate to intercept: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/lib/jspawnhelper (canonical: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/lib/jspawnhelper) ====
+[T 08:09:52 26032] Lua: === Intercepted call to /opt/homebrew/caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/lib/jspawnhelper ===
+[T 08:09:52 26032] Executing the following tracer actions:
+[T 08:09:52 26032] Tracer actions:
+[T 08:09:52 26032] pre_invocations(0)
+[T 08:09:52 26032] post_invocations(0)
+[T 08:09:52 26032] trace_languages(1): [java]
+[T 08:09:52 26033] Attempting to switch stdout/stderr to 4...
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/bin/sh.semmle.000065B0.37A7A288.slice.x86_64: replacing existing signature
+[T 08:09:53 26032] Initializing tracer.
+[T 08:09:53 26032] Initializing tags.
+[T 08:09:53 26032] ID set to 00000000000065B0_0000000000000002 (parent 00000000000065B0_0000000000000001)
+[T 08:09:53 26032] ==== Candidate to intercept: ./gradlew (canonical: /Users/thida/ftp/gradle-project-demo/gradlew) ====
+[T 08:09:53 26032] Lua: === Intercepted call to /users/thida/ftp/gradle-project-demo/gradlew ===
+[T 08:09:53 26032] Executing the following tracer actions:
+[T 08:09:53 26032] Tracer actions:
+[T 08:09:53 26032] pre_invocations(0)
+[T 08:09:53 26032] post_invocations(0)
+[T 08:09:53 26032] trace_languages(1): [java]
+[T 08:09:53 26032] Initializing tracer.
+[T 08:09:53 26032] Initializing tags.
+[T 08:09:53 26032] ID set to 00000000000065B0_0000000000000003 (parent 00000000000065B0_0000000000000002)
+[T 08:09:53 26032] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 08:09:53 26032] Lua: === Intercepted call to /bin/bash ===
+[T 08:09:53 26032] Executing the following tracer actions:
+[T 08:09:53 26032] Tracer actions:
+[T 08:09:53 26032] pre_invocations(0)
+[T 08:09:53 26032] post_invocations(0)
+[T 08:09:53 26032] trace_languages(1): [java]
+[T 08:09:53 26039] Attempting to switch stdout/stderr to 3...
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/usr/bin/uname.semmle.000065B6.1DD8FDC0.slice.x86_64: replacing existing signature
+[T 08:09:54 26038] Initializing tracer.
+[T 08:09:54 26038] Initializing tags.
+[T 08:09:54 26038] ID set to 00000000000065B6_0000000000000001 (parent 00000000000065B0_0000000000000003)
+[T 08:09:54 26038] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 08:09:54 26038] Lua: === Intercepted call to /usr/bin/uname ===
+[T 08:09:54 26038] Executing the following tracer actions:
+[T 08:09:54 26038] Tracer actions:
+[T 08:09:54 26038] pre_invocations(0)
+[T 08:09:54 26038] post_invocations(0)
+[T 08:09:54 26038] trace_languages(1): [java]
+[T 08:09:54 26066] Attempting to switch stdout/stderr to 3...
+[T 08:09:54 26068] Attempting to switch stdout/stderr to 3...
+[T 08:09:54 26069] Attempting to switch stdout/stderr to 3...
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/usr/bin/xargs.semmle.000065D0.051F62D8.slice.x86_64: replacing existing signature
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/usr/bin/sed.semmle.000065D1.053E6C28.slice.x86_64: replacing existing signature
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/usr/bin/tr.semmle.000065D3.0577F2B8.slice.x86_64: replacing existing signature
+[T 08:09:54 26064] Initializing tracer.
+[T 08:09:54 26064] Initializing tags.
+[T 08:09:54 26064] ID set to 00000000000065D0_0000000000000001 (parent 00000000000065B0_0000000000000003)
+[T 08:09:54 26064] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 08:09:54 26064] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 08:09:54 26064] Executing the following tracer actions:
+[T 08:09:54 26064] Tracer actions:
+[T 08:09:54 26064] pre_invocations(0)
+[T 08:09:54 26064] post_invocations(0)
+[T 08:09:54 26064] trace_languages(1): [java]
+[T 08:09:54 26088] Attempting to switch stdout/stderr to 3...
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/bin/echo.semmle.000065D0.37D1EEA8.slice.x86_64: replacing existing signature
+[T 08:09:55 26067] Initializing tracer.
+[T 08:09:55 26067] Initializing tags.
+[T 08:09:55 26067] ID set to 00000000000065D3_0000000000000001 (parent 00000000000065B0_0000000000000003)
+[T 08:09:55 26067] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 08:09:55 26067] Lua: === Intercepted call to /usr/bin/tr ===
+[T 08:09:55 26067] Executing the following tracer actions:
+[T 08:09:55 26067] Tracer actions:
+[T 08:09:55 26067] pre_invocations(0)
+[T 08:09:55 26067] post_invocations(0)
+[T 08:09:55 26067] trace_languages(1): [java]
+[T 08:09:56 26065] Initializing tracer.
+[T 08:09:56 26065] Initializing tags.
+[T 08:09:56 26065] ID set to 00000000000065D1_0000000000000001 (parent 00000000000065B0_0000000000000003)
+[T 08:09:56 26065] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 08:09:56 26065] Lua: === Intercepted call to /usr/bin/sed ===
+[T 08:09:56 26065] Executing the following tracer actions:
+[T 08:09:56 26065] Tracer actions:
+[T 08:09:56 26065] pre_invocations(0)
+[T 08:09:56 26065] post_invocations(0)
+[T 08:09:56 26065] trace_languages(1): [java]
+[T 08:09:56 26091] Initializing tracer.
+[T 08:09:56 26091] Initializing tags.
+[T 08:09:56 26091] ID set to 00000000000065EB_0000000000000001 (parent 00000000000065D0_0000000000000001)
+[T 08:09:56 26091] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 08:09:56 26091] Lua: === Intercepted call to /bin/echo ===
+[T 08:09:56 26091] Executing the following tracer actions:
+[T 08:09:56 26091] Tracer actions:
+[T 08:09:56 26091] pre_invocations(0)
+[T 08:09:56 26091] post_invocations(0)
+[T 08:09:56 26091] trace_languages(1): [java]
+[T 08:09:56 26095] Initializing tracer.
+[T 08:09:56 26095] Initializing tags.
+[T 08:09:56 26095] ID set to 00000000000065EF_0000000000000001 (parent 00000000000065D0_0000000000000001)
+[T 08:09:56 26095] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 08:09:56 26095] Lua: === Intercepted call to /bin/echo ===
+[T 08:09:56 26095] Executing the following tracer actions:
+[T 08:09:56 26095] Tracer actions:
+[T 08:09:56 26095] pre_invocations(0)
+[T 08:09:56 26095] post_invocations(0)
+[T 08:09:56 26095] trace_languages(1): [java]
+[T 08:09:56 26096] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java.semmle.000065B0.1EBD5E98.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java.semmle.000065B0.1EBD5E98.slice.arm64
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java.semmle.000065B0.1EBD5E98.slice.arm64: replacing existing signature
+[T 08:09:56 26032] Initializing tracer.
+[T 08:09:56 26032] Initializing tags.
+[T 08:09:56 26032] ID set to 00000000000065B0_0000000000000004 (parent 00000000000065B0_0000000000000003)
+[T 08:09:56 26032] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java) ====
+[T 08:09:56 26032] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/bin/java ===
+[T 08:09:56 26032] Executing the following tracer actions:
+[T 08:09:56 26032] Tracer actions:
+[T 08:09:56 26032] pre_invocations(0)
+[T 08:09:56 26032] post_invocations(0)
+[T 08:09:56 26032] trace_languages(1): [java]
+[T 08:09:56 26032] Passing through -javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 08:09:56 26032] Passing through -Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 08:09:57 26032] Intercepted JVM creation with extra hidden args: ['-javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 08:09:57 26115] Attempting to switch stdout/stderr to 189...
+/Users/thida/ftp/gradle-project-demo/demo/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper.semmle.000065B0.110D0550.slice.arm64: replacing existing signature
+[T 08:09:57 26118] Initializing tracer.
+[T 08:09:57 26118] Initializing tags.
+[T 08:09:57 26118] ID set to 0000000000006606_0000000000000001 (parent 00000000000065B0_0000000000000004)
+[T 08:09:57 26118] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 08:09:57 26118] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/lib/jspawnhelper ===
+[T 08:09:57 26118] Executing the following tracer actions:
+[T 08:09:57 26118] Tracer actions:
+[T 08:09:57 26118] pre_invocations(0)
+[T 08:09:57 26118] post_invocations(0)
+[T 08:09:57 26118] trace_languages(1): [java]
+[T 08:09:57 26118] Initializing tracer.
+[T 08:09:57 26118] Initializing tags.
+[T 08:09:57 26118] ID set to 0000000000006606_0000000000000002 (parent 0000000000006606_0000000000000001)
+[T 08:09:57 26118] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java) ====
+[T 08:09:57 26118] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/bin/java ===
+[T 08:09:57 26118] Executing the following tracer actions:
+[T 08:09:57 26118] Tracer actions:
+[T 08:09:57 26118] pre_invocations(0)
+[T 08:09:57 26118] post_invocations(0)
+[T 08:09:57 26118] trace_languages(1): [java]
+[T 08:09:57 26118] Passing through -javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 08:09:57 26118] Passing through -Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 08:09:57 26118] Intercepted JVM creation with extra hidden args: ['-javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 08:09:59 26139] Initializing tracer.
+[T 08:09:59 26139] Initializing tags.
+[T 08:09:59 26139] ID set to 000000000000661B_0000000000000001 (parent 000000000000656D_0000000000000001)
+[T 08:09:59 26139] ==== Candidate to intercept: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/lib/jspawnhelper (canonical: /opt/homebrew/Caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/lib/jspawnhelper) ====
+[T 08:09:59 26139] Lua: === Intercepted call to /opt/homebrew/caskroom/codeql/2.20.4/codeql/tools/osx64/java-aarch64/lib/jspawnhelper ===
+[T 08:09:59 26139] Executing the following tracer actions:
+[T 08:09:59 26139] Tracer actions:
+[T 08:09:59 26139] pre_invocations(0)
+[T 08:09:59 26139] post_invocations(0)
+[T 08:09:59 26139] trace_languages(1): [java]
+[T 08:09:59 26139] Initializing tracer.
+[T 08:09:59 26139] Initializing tags.
+[T 08:09:59 26139] ID set to 000000000000661B_0000000000000002 (parent 000000000000661B_0000000000000001)
+[T 08:09:59 26139] ==== Candidate to intercept: ./gradlew (canonical: /Users/thida/ftp/gradle-project-demo/gradlew) ====
+[T 08:09:59 26139] Lua: === Intercepted call to /users/thida/ftp/gradle-project-demo/gradlew ===
+[T 08:09:59 26139] Executing the following tracer actions:
+[T 08:09:59 26139] Tracer actions:
+[T 08:09:59 26139] pre_invocations(0)
+[T 08:09:59 26139] post_invocations(0)
+[T 08:09:59 26139] trace_languages(1): [java]
+[T 08:09:59 26139] Initializing tracer.
+[T 08:09:59 26139] Initializing tags.
+[T 08:09:59 26139] ID set to 000000000000661B_0000000000000003 (parent 000000000000661B_0000000000000002)
+[T 08:09:59 26139] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 08:09:59 26139] Lua: === Intercepted call to /bin/bash ===
+[T 08:09:59 26139] Executing the following tracer actions:
+[T 08:09:59 26139] Tracer actions:
+[T 08:09:59 26139] pre_invocations(0)
+[T 08:09:59 26139] post_invocations(0)
+[T 08:09:59 26139] trace_languages(1): [java]
+[T 08:09:59 26141] Initializing tracer.
+[T 08:09:59 26141] Initializing tags.
+[T 08:09:59 26141] ID set to 000000000000661D_0000000000000001 (parent 000000000000661B_0000000000000003)
+[T 08:09:59 26141] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 08:09:59 26141] Lua: === Intercepted call to /usr/bin/uname ===
+[T 08:09:59 26141] Executing the following tracer actions:
+[T 08:09:59 26141] Tracer actions:
+[T 08:09:59 26141] pre_invocations(0)
+[T 08:09:59 26141] post_invocations(0)
+[T 08:09:59 26141] trace_languages(1): [java]
+[T 08:09:59 26145] Initializing tracer.
+[T 08:09:59 26144] Initializing tracer.
+[T 08:09:59 26145] Initializing tags.
+[T 08:09:59 26144] Initializing tags.
+[T 08:09:59 26146] Initializing tracer.
+[T 08:09:59 26146] Initializing tags.
+[T 08:09:59 26144] ID set to 0000000000006620_0000000000000001 (parent 000000000000661B_0000000000000003)
+[T 08:09:59 26144] ==== Candidate to intercept: /usr/bin/xargs (canonical: /usr/bin/xargs) ====
+[T 08:09:59 26146] ID set to 0000000000006622_0000000000000001 (parent 000000000000661B_0000000000000003)
+[T 08:09:59 26146] ==== Candidate to intercept: /usr/bin/tr (canonical: /usr/bin/tr) ====
+[T 08:09:59 26145] ID set to 0000000000006621_0000000000000001 (parent 000000000000661B_0000000000000003)
+[T 08:09:59 26145] ==== Candidate to intercept: /usr/bin/sed (canonical: /usr/bin/sed) ====
+[T 08:09:59 26144] Lua: === Intercepted call to /usr/bin/xargs ===
+[T 08:09:59 26144] Executing the following tracer actions:
+[T 08:09:59 26144] Tracer actions:
+[T 08:09:59 26144] pre_invocations(0)
+[T 08:09:59 26144] post_invocations(0)
+[T 08:09:59 26144] trace_languages(1): [java]
+[T 08:09:59 26146] Lua: === Intercepted call to /usr/bin/tr ===
+[T 08:09:59 26146] Executing the following tracer actions:
+[T 08:09:59 26146] Tracer actions:
+[T 08:09:59 26146] pre_invocations(0)
+[T 08:09:59 26146] post_invocations(0)
+[T 08:09:59 26146] trace_languages(1): [java]
+[T 08:09:59 26145] Lua: === Intercepted call to /usr/bin/sed ===
+[T 08:09:59 26145] Executing the following tracer actions:
+[T 08:09:59 26145] Tracer actions:
+[T 08:09:59 26145] pre_invocations(0)
+[T 08:09:59 26145] post_invocations(0)
+[T 08:09:59 26145] trace_languages(1): [java]
+[T 08:09:59 26155] Initializing tracer.
+[T 08:09:59 26155] Initializing tags.
+[T 08:09:59 26155] ID set to 000000000000662B_0000000000000001 (parent 0000000000006620_0000000000000001)
+[T 08:09:59 26155] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 08:09:59 26155] Lua: === Intercepted call to /bin/echo ===
+[T 08:09:59 26155] Executing the following tracer actions:
+[T 08:09:59 26155] Tracer actions:
+[T 08:09:59 26155] pre_invocations(0)
+[T 08:09:59 26155] post_invocations(0)
+[T 08:09:59 26155] trace_languages(1): [java]
+[T 08:09:59 26156] Initializing tracer.
+[T 08:09:59 26156] Initializing tags.
+[T 08:09:59 26156] ID set to 000000000000662C_0000000000000001 (parent 0000000000006620_0000000000000001)
+[T 08:09:59 26156] ==== Candidate to intercept: /bin/echo (canonical: /bin/echo) ====
+[T 08:09:59 26156] Lua: === Intercepted call to /bin/echo ===
+[T 08:09:59 26156] Executing the following tracer actions:
+[T 08:09:59 26156] Tracer actions:
+[T 08:09:59 26156] pre_invocations(0)
+[T 08:09:59 26156] post_invocations(0)
+[T 08:09:59 26156] trace_languages(1): [java]
+[T 08:09:59 26139] Initializing tracer.
+[T 08:09:59 26139] Initializing tags.
+[T 08:09:59 26139] ID set to 000000000000661B_0000000000000004 (parent 000000000000661B_0000000000000003)
+[T 08:09:59 26139] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java) ====
+[T 08:09:59 26139] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/bin/java ===
+[T 08:09:59 26139] Executing the following tracer actions:
+[T 08:09:59 26139] Tracer actions:
+[T 08:09:59 26139] pre_invocations(0)
+[T 08:09:59 26139] post_invocations(0)
+[T 08:09:59 26139] trace_languages(1): [java]
+[T 08:09:59 26139] Passing through -javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 08:09:59 26139] Passing through -Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 08:09:59 26139] Intercepted JVM creation with extra hidden args: ['-javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 08:09:59 26157] Initializing tracer.
+[T 08:09:59 26157] Initializing tags.
+[T 08:09:59 26157] ID set to 000000000000662D_0000000000000001 (parent 000000000000661B_0000000000000004)
+[T 08:09:59 26157] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 08:09:59 26157] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/lib/jspawnhelper ===
+[T 08:09:59 26157] Executing the following tracer actions:
+[T 08:09:59 26157] Tracer actions:
+[T 08:09:59 26157] pre_invocations(0)
+[T 08:09:59 26157] post_invocations(0)
+[T 08:09:59 26157] trace_languages(1): [java]
+[T 08:10:00 26157] Initializing tracer.
+[T 08:10:00 26157] Initializing tags.
+[T 08:10:00 26157] ID set to 000000000000662D_0000000000000002 (parent 000000000000662D_0000000000000001)
+[T 08:10:00 26157] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java) ====
+[T 08:10:00 26157] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/bin/java ===
+[T 08:10:00 26157] Executing the following tracer actions:
+[T 08:10:00 26157] Tracer actions:
+[T 08:10:00 26157] pre_invocations(0)
+[T 08:10:00 26157] post_invocations(0)
+[T 08:10:00 26157] trace_languages(1): [java]
+[T 08:10:00 26157] Passing through -javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 08:10:00 26157] Passing through -Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 08:10:00 26157] Intercepted JVM creation with extra hidden args: ['-javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 08:10:01 26190] Initializing tracer.
+[T 08:10:01 26190] Initializing tags.
+[T 08:10:01 26190] ID set to 000000000000664E_0000000000000001 (parent 000000000000662D_0000000000000002)
+[T 08:10:01 26190] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 08:10:01 26190] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/lib/jspawnhelper ===
+[T 08:10:01 26190] Executing the following tracer actions:
+[T 08:10:01 26190] Tracer actions:
+[T 08:10:01 26190] pre_invocations(0)
+[T 08:10:01 26190] post_invocations(0)
+[T 08:10:01 26190] trace_languages(1): [java]
+[T 08:10:01 26190] Initializing tracer.
+[T 08:10:01 26190] Initializing tags.
+[T 08:10:01 26190] ID set to 000000000000664E_0000000000000002 (parent 000000000000664E_0000000000000001)
+[T 08:10:01 26190] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java) ====
+[T 08:10:01 26190] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/bin/java ===
+[T 08:10:01 26190] Executing the following tracer actions:
+[T 08:10:01 26190] Tracer actions:
+[T 08:10:01 26190] pre_invocations(0)
+[T 08:10:01 26190] post_invocations(0)
+[T 08:10:01 26190] trace_languages(1): [java]
+[T 08:10:01 26190] Passing through -javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 08:10:01 26190] Passing through -Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 08:10:01 26190] Intercepted JVM creation with extra hidden args: ['-javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 08:10:04 26690] Initializing tracer.
+[T 08:10:04 26690] Initializing tags.
+[T 08:10:04 26690] ID set to 0000000000006842_0000000000000001 (parent 000000000000662D_0000000000000002)
+[T 08:10:04 26690] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 08:10:04 26690] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/lib/jspawnhelper ===
+[T 08:10:04 26690] Executing the following tracer actions:
+[T 08:10:04 26690] Tracer actions:
+[T 08:10:04 26690] pre_invocations(0)
+[T 08:10:04 26690] post_invocations(0)
+[T 08:10:04 26690] trace_languages(1): [java]
+[T 08:10:04 26690] Initializing tracer.
+[T 08:10:04 26690] Initializing tags.
+[T 08:10:04 26690] ID set to 0000000000006842_0000000000000002 (parent 0000000000006842_0000000000000001)
+[T 08:10:04 26690] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/java) ====
+[T 08:10:04 26690] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk-23.jdk/contents/home/bin/java ===
+[T 08:10:04 26690] Executing the following tracer actions:
+[T 08:10:04 26690] Tracer actions:
+[T 08:10:04 26690] pre_invocations(0)
+[T 08:10:04 26690] post_invocations(0)
+[T 08:10:04 26690] trace_languages(1): [java]
+[T 08:10:04 26690] Passing through -javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 08:10:04 26690] Passing through -Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 08:10:04 26690] Intercepted JVM creation with extra hidden args: ['-javaagent:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/opt/homebrew/Caskroom/codeql/2.20.4/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).

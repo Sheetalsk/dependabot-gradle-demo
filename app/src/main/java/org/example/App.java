@@ -3,12 +3,43 @@
  */
 package org.example;
 
+import java.sql.Connection;
+import java.util.Scanner;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
 public class App {
+
+    // TODO: Add a calculation here
     public String getGreeting() {
         return "Hello World!";
     }
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter your username:");
+        String userInput = scanner.nextLine();  // 🚨 UNSAFE: User input is used directly in SQL query
+
+        try (Connection conn = DriverManager.getConnection("jdbc:h2:mem:testdb", "sa", "")) {
+            Statement stmt = conn.createStatement();
+
+            // 🚨 VULNERABLE: SQL Injection risk
+            String query = "SELECT * FROM users WHERE username = '" + userInput + "'";
+
+            ResultSet rs = stmt.executeQuery(query);
+
+            while (rs.next()) {
+                System.out.println("Welcome, " + rs.getString("username"));
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        scanner.close();
     }
 }

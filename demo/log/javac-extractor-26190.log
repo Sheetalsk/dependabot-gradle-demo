@@ -1,0 +1,15 @@
+[2025-02-14 15:10:02] [javac-extractor-26190] Starting extraction for:
+                                              sun.java.command=com.semmle.extractor.java.JavaExtractor --jdk-version 23 --javac-args @@@/Users/thida/ftp/gradle-project-demo/demo/log/ext/javac.args
+                                              user.dir=/Users/thida/ftp/gradle-project-demo
+[2025-02-14 15:10:02] [javac-extractor-26190] Compilation name /Users/thida/ftp/gradle-project-demo/demo/trap/java/diagnostics/diagnostic.trap.gz
+[2025-02-14 15:10:02] [javac-extractor-26190] [WARN] Appending source destination directory /Users/thida/ftp/gradle-project-demo/app/build/generated/sources/annotationProcessor/java/main to sourcepath
+[2025-02-14 15:10:02] [javac-extractor-26190] Processing file /Users/thida/ftp/gradle-project-demo/app/src/main/java/org/example/App.java
+[2025-02-14 15:10:04] [javac-extractor-26190] Processing module java.sql
+[2025-02-14 15:10:04] [javac-extractor-26190] Processing module java.base
+[2025-02-14 15:10:04] [javac-extractor-26190] Processing module java.xml
+[2025-02-14 15:10:04] [javac-extractor-26190] Processing module java.logging
+[2025-02-14 15:10:04] [javac-extractor-26190] Javac init time: 0.5s
+[2025-02-14 15:10:04] [javac-extractor-26190] Javac attr time: 0.0s
+[2025-02-14 15:10:04] [javac-extractor-26190] Extractor time: 1.7s
+[2025-02-14 15:10:04] [javac-extractor-26190] Other time: 0.1s
+[2025-02-14 15:10:04] [javac-extractor-26190] Total time: 2.2s

@@ -1,0 +1,14 @@
+[2025-02-14 15:10:17] This is codeql database analyze demo --format=sarif-latest --output=results.sarif
+[2025-02-14 15:10:17] Log file was started late.
+[2025-02-14 15:10:17] [PROGRESS] database analyze> Running queries.
+[2025-02-14 15:10:17] Running plumbing command: codeql database run-queries --evaluator-log-level=5 --warnings=show --dynamic-join-order-mode=none --qlconfig-file=/Users/thida/ftp/gradle-project-demo/qlconfig.yml --no-rerun --interpret-passthrough=null,--format=sarif-latest,-o=/Users/thida/ftp/gradle-project-demo/results.sarif,--max-paths=4,--csv-location-format=line-column,--print-diagnostics-summary,--print-metrics-summary,--qlconfig-file=/Users/thida/ftp/gradle-project-demo/qlconfig.yml,--,/Users/thida/ftp/gradle-project-demo/demo -- /Users/thida/ftp/gradle-project-demo/demo
+[2025-02-14 15:10:17] Calling plumbing command: codeql resolve ram --dataset=/Users/thida/ftp/gradle-project-demo/demo/db-java --format=json
+[2025-02-14 15:10:17] [PROGRESS] resolve ram> Stringpool size measured as 2523546
+[2025-02-14 15:10:17] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx1800M",
+                        "--off-heap-ram=1583"
+                      ]
+[2025-02-14 15:10:17] Chaining via /var/folders/rz/bnl5wp992kb2_xn_ldx0y5mc0000gn/T/codeql.XXXXXXXX.pJajnQThwk to plumbing: execute queries -J-Xmx1800M --off-heap-ram=1583 --verbosity=progress --logdir=/Users/thida/ftp/gradle-project-demo/demo/log --evaluator-log-level=5 --warnings=show --dynamic-join-order-mode=none --qlconfig-file=/Users/thida/ftp/gradle-project-demo/qlconfig.yml --no-rerun --interpret-passthrough=null,--format=sarif-latest,-o=/Users/thida/ftp/gradle-project-demo/results.sarif,--max-paths=4,--csv-location-format=line-column,--print-diagnostics-summary,--print-metrics-summary,--qlconfig-file=/Users/thida/ftp/gradle-project-demo/qlconfig.yml,--,/Users/thida/ftp/gradle-project-demo/demo --output=/Users/thida/ftp/gradle-project-demo/demo/results -- /Users/thida/ftp/gradle-project-demo/demo/db-java codeql/java-queries
+[2025-02-14 15:10:17] Plumbing command codeql database run-queries completed with status 70.
+[2025-02-14 15:10:17] Exiting with code 70
