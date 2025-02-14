@@ -18,28 +18,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
-
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Enter your username:");
-        String userInput = scanner.nextLine();  // 🚨 UNSAFE: User input is used directly in SQL query
-
-        try (Connection conn = DriverManager.getConnection("jdbc:h2:mem:testdb", "sa", "")) {
-            Statement stmt = conn.createStatement();
-
-            // 🚨 VULNERABLE: SQL Injection risk
-            String query = "SELECT * FROM users WHERE username = '" + userInput + "'";
-
-            ResultSet rs = stmt.executeQuery(query);
-
-            while (rs.next()) {
-                System.out.println("Welcome, " + rs.getString("username"));
-            }
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        scanner.close();
+       //TODO Test todo comment
     }
 }
